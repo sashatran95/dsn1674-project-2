@@ -1,0 +1,93 @@
+/*Colour Palette:
+Normal Red: #E80000 
+Dark Normal Red: #D00000 
+Yellow: #EFD600
+Pseudo Black: #333333
+*/
+html {
+	box-sizing: border-box;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+
+}
+body {
+	margin: 0 auto;
+	min-width: 320px;
+	max-width: 600px;
+
+}
+header {
+	background: #E80000;
+ 	margin: auto;
+ 	padding: 1rem;
+
+}/*The h's*/
+h1{
+	top:.1rem;
+	text-align:center;
+	margin:auto;
+	font-size:50px;
+}
+
+h2{
+	color: white;
+	position: absolute;
+	bottom: 1em;
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	font-style: italic;
+	font-size: 25px;
+	text-shadow: 0 2px 3px rgba(0,0,0,256);
+}
+
+h3 {
+	margin: auto;
+	text-align: center;
+
+}/*Images*/
+img {
+	width: 100%;
+}/*Symbols to the Left*/
+.dragon-symbol{
+	width:50%;
+	float:left;
+}
+.goat-symbol{
+	width:50%;
+	float:left;
+}
+.rooster-symbol{
+	width:50%;
+	float:left;
+}
+.ox-symbol{
+	width:50%;
+	float:left;
+
+}/*Pics to the right*/
+.dragonimg{
+	width:50%;
+	float:right;
+}
+.goatimg{
+	width:50%;
+	float:right;
+}
+.roosterimg{
+	width:50%;
+	float:right;
+}
+.oximg{
+	width:50%;
+	float:right;
+
+
+/*}
+.images{
+	padding:1rem;
+}*/
+}
