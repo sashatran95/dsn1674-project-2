@@ -26,15 +26,18 @@ header {
 p{
 	margin: auto;
 }
-.firstp p{
-	margin-top: 1em;
-	margin-bottom: 1em;
-	margin-left: .5em;
-	margin-right: .5em;
+.firstp {
+	position: relative;
+}
+.classlessp {
+	position: relative;
+	margin: 3em auto;
+	padding: 0;
 }
 .dragon p, .goat p, .rooster p, .ox p{
 	font-style: italic;
 	text-align: center;
+	margin: auto;
 
 }/*The h's*/
 h1{
@@ -63,16 +66,16 @@ h2{
 	text-align: center;
 	margin: auto;
 	font-style: italic;
-	font-size: 25px;
+	font-size: 30px;
 	text-shadow: 0 2px 3px rgba(0,0,0,256);
 }
 .h2sheng{
-	position: relative;
+	position: absolute;
 }
 h3 {
 	margin: auto;
-	text-align: center
-	position: relative;;
+	text-align: center;
+	position: relative;
 	font-size: 2.5em;
 
 }/*Navigations*/
@@ -81,7 +84,7 @@ nav a{
 	background-color: #333333;
 	text-decoration: none;
 	color: white;
-	border: 0.1rem solid #111111;
+	border: 0.1rem solid black;
 	padding: 1rem;
 	width: 100%;
 }
@@ -104,6 +107,11 @@ nav ol{
 }/*Images*/
 img {
 	width: 100%;
+}
+.chinart{
+	position: relative;
+	margin: auto;
+
 }/*Symbols to the Left*/
 .dragon-symbol{
 	width:50%;
@@ -143,6 +151,7 @@ img {
 	text-align: center;
 	color: white;
 	position: relative;
+	height: 100px;
 }
 .title{
 	position:absolute;
