@@ -15,8 +15,7 @@ html {
 }
 body {
 	margin: 0 auto;
-	min-width: 320px;
-	max-width: 600px;
+	width: 600px;
 
 }
 header {
@@ -24,14 +23,31 @@ header {
  	margin: auto;
  	padding: 1rem;
 
+}/*The p's*/
+p{
+	margin: auto;
+}
+.firstp p{
+	margin: 2em;
+}
+.dragon p, .goat p, .rooster p, .ox p{
+	font-style: italic;
+	text-align: center;
+
 }/*The h's*/
 h1{
-	top:.1rem;
+	top:5rem;
 	text-align:center;
-	margin:auto;
+	margin: auto;
+}
+.title1 {
+	font-style: bold;
 	font-size:50px;
 }
-
+.title2{
+	font-style: normal;
+	font-size: 1em;
+}
 h2{
 	color: white;
 	position: absolute;
@@ -43,10 +59,10 @@ h2{
 	font-size: 25px;
 	text-shadow: 0 2px 3px rgba(0,0,0,256);
 }
-
 h3 {
 	margin: auto;
 	text-align: center;
+	font-size: 2.5em;
 
 }/*Navigations*/
 nav a{
@@ -57,31 +73,22 @@ nav a{
 	border: 0.1rem solid #111111;
 	padding: 1rem;
 	width: 100%;
-
 }
-
 nav{
 	width: 100%;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	overflow: hidden;
 }
-
 nav li{
 	display: inline;
 	width: 50%;
 	float: left;
 }
-/*
-#head-p{
-  top:4.5rem;
-}*/
-
 nav ol{
 	list-style-type: none;
 	padding: 0 auto;
 	margin: 0 auto;
-
 
 }/*Images*/
 img {
@@ -132,8 +139,49 @@ img {
 	width:100%;
 	text-shadow:0 2px 3px rgba(0,0,0,256);
 }
+.anotehrtitle{
+	top:5rem;
+}
+.medallion{
+	width: 100px
+
+}/*Big box around them images*/
+.dragon{
+	background-color:#EFD600;
+	margin:auto;
+	padding:1.5rem;
+}
+.goat{
+	color:white;
+	background-color:#333333;
+	margin:auto;
+	padding:1.5rem;
+}
+.rooster{
+	color:white;
+	background-color:#D00000;
+	margin:auto;
+	padding:1.5rem;
+}
+.ox{
+	background-color:#EFD600;
+	margin:auto;
+	padding:1.5rem;
+
+
+}/*Footer*/
 /*}
 .images{
 	padding:1rem;
 }*/
+
+footer{
+	text-align:center;
+	color:white;
+	background-color:#333333;
+	margin:auto;
+	padding:1.5rem;
+}
+footer a{
+	color: white;
 }
