@@ -31,8 +31,8 @@ p{
 }
 .classlessp {
 	position: relative;
-	margin: 3em auto;
-	padding: 0;
+	margin: 0.5em auto;
+	padding: 9px;
 }
 .dragon p, .goat p, .rooster p, .ox p{
 	font-style: italic;
@@ -71,6 +71,7 @@ h2{
 }
 .h2sheng{
 	position: absolute;
+	margin: 0;
 }
 h3 {
 	margin: auto;
