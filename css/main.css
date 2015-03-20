@@ -61,7 +61,7 @@ h1{
 h2{
 	color: white;
 	position: absolute;
-	bottom: 2em;
+	bottom: 1em;
 	width: 100%;
 	text-align: center;
 	margin: auto;
@@ -72,6 +72,7 @@ h2{
 .h2sheng{
 	position: absolute;
 	margin: 0;
+
 }
 h3 {
 	margin: auto;
